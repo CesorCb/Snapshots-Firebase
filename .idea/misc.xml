@@ -3,9 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/cesor/AndroidStudio/AndroidStudioProjects/CursoAdapters/Practica/Snapshots/app/src/main/res/drawable/ic_account_circle.xml" value="0.121" />
+        <entry key="..\:/Users/cesor/AndroidStudio/AndroidStudioProjects/CursoAdapters/Practica/Snapshots/app/src/main/res/drawable/ic_add_photo_alternate.xml" value="0.121" />
+        <entry key="..\:/Users/cesor/AndroidStudio/AndroidStudioProjects/CursoAdapters/Practica/Snapshots/app/src/main/res/drawable/ic_favorite.xml" value="0.121" />
+        <entry key="..\:/Users/cesor/AndroidStudio/AndroidStudioProjects/CursoAdapters/Practica/Snapshots/app/src/main/res/drawable/ic_favorite_border.xml" value="0.121" />
+        <entry key="..\:/Users/cesor/AndroidStudio/AndroidStudioProjects/CursoAdapters/Practica/Snapshots/app/src/main/res/drawable/ic_favorite_states.xml" value="0.121" />
+        <entry key="..\:/Users/cesor/AndroidStudio/AndroidStudioProjects/CursoAdapters/Practica/Snapshots/app/src/main/res/drawable/ic_home.xml" value="0.121" />
+        <entry key="..\:/Users/cesor/AndroidStudio/AndroidStudioProjects/CursoAdapters/Practica/Snapshots/app/src/main/res/drawable/ic_image_search.xml" value="0.1795" />
+        <entry key="..\:/Users/cesor/AndroidStudio/AndroidStudioProjects/CursoAdapters/Practica/Snapshots/app/src/main/res/drawable/ic_launcher_background.xml" value="0.121" />
         <entry key="..\:/Users/cesor/AndroidStudio/AndroidStudioProjects/CursoAdapters/Practica/Snapshots/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/cesor/AndroidStudio/AndroidStudioProjects/CursoAdapters/Practica/Snapshots/app/src/main/res/layout/fragment_add.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/cesor/AndroidStudio/AndroidStudioProjects/CursoAdapters/Practica/Snapshots/app/src/main/res/layout/fragment_home.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/cesor/AndroidStudio/AndroidStudioProjects/CursoAdapters/Practica/Snapshots/app/src/main/res/layout/fragment_profile.xml" value="0.33" />
+        <entry key="..\:/Users/cesor/AndroidStudio/AndroidStudioProjects/CursoAdapters/Practica/Snapshots/app/src/main/res/layout/item_snapshot.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/cesor/AndroidStudio/AndroidStudioProjects/CursoAdapters/Practica/Snapshots/app/src/main/res/menu/bottom_nav_menu.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/cesor/AndroidStudio/AndroidStudioProjects/CursoAdapters/Practica/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/cesor/AndroidStudio/AndroidStudioProjects/CursoAdapters/Practica/app/src/main/res/layout/fragment_add.xml" value="0.21041666666666667" />
         <entry key="..\:/Users/cesor/AndroidStudio/AndroidStudioProjects/CursoAdapters/Practica/app/src/main/res/layout/fragment_home.xml" value="0.22447916666666667" />

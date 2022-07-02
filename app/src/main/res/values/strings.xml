@@ -6,5 +6,24 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="post_message_title">Seleccione una imagen</string>
-    <string name="post_message_valid_title">Por favor, agrega un título para la imagen</string>
+    <string name="post_message_valid_title">Por favor, añade un título</string>
+    <string name="main_auth_welcome">Bienvenido</string>
+    <string name="btn_logout_text">Cerrar sesión</string>
+    <string name="helper_required">Requerido</string>
+    <string name="post_message_post_image_fail">No se pudo subir la imagen</string>
+    <string name="post_message_post_success">Instantánea publicada</string>
+    <string name="post_message_post_snapshot_fail">No se pudo publicar la instantánea</string>
+    <string name="dialog_delete_title">¿Eliminar instantánea?</string>
+    <string name="dialog_delete_confirm">Eliminar</string>
+    <string name="home_delete_photo_error">Error al eliminar la imagen</string>
+    <string name="dialog_delete_cancel">Cancelar</string>
+    <string name="dialog_logout_title">¿Cerrar la sesión actual?</string>
+    <string name="dialog_logout_confirm">Sí, cerrar</string>
+    <string name="dialog_logout_cancel">Cancelar</string>
+    <string name="profile_logout_success">Hasta pronto...</string>
+    <string name="add_button_select">Seleccionar imagen</string>
+    <string name="add_button_post">Publicar</string>
+    <string name="add_title_hint">Título de la instantánea</string>
+    <string name="description_item_delete">Eliminar la instantánea</string>
+
 </resources>

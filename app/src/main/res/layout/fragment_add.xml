@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:padding="@dimen/common_padding_default"
-    tools:context=".AddFragment">
+    tools:context=".ui.fragments.AddFragment">
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/common_padding_min"
-        android:text="Publicar"
+        android:text="@string/add_button_post"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/progressBar"/>
 
@@ -41,9 +41,10 @@
         android:id="@+id/tilTitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="Título de la instantánea"
+        android:hint="@string/add_title_hint"
         android:layout_marginTop="@dimen/common_padding_min"
         android:visibility="gone"
+        app:endIconMode="clear_text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btnPost"
@@ -51,7 +52,9 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etTitle"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine|textCapSentences"
+            android:maxLines="@integer/add_max_lines_title"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <ImageView
@@ -59,10 +62,12 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="@dimen/common_padding_min"
+        android:background="@color/gray_100"
+        android:importantForAccessibility="no"
+        app:layout_constraintDimensionRatio="H,4:3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tilTitle"
-        app:layout_constraintDimensionRatio="H,4:3"/>
+        app:layout_constraintTop_toBottomOf="@id/tilTitle" />
 
     <ImageButton
         android:id="@+id/btnSelect"
@@ -70,11 +75,10 @@
         android:layout_height="0dp"
         android:src="@drawable/ic_image_search"
         android:background="?attr/selectableItemBackground"
+        android:contentDescription="@string/add_button_select"
         app:layout_constraintStart_toStartOf="@id/imgPhoto"
         app:layout_constraintEnd_toEndOf="@id/imgPhoto"
         app:layout_constraintTop_toTopOf="@id/imgPhoto"
         app:layout_constraintBottom_toBottomOf="@id/imgPhoto"/>
 
-
-    
 </androidx.constraintlayout.widget.ConstraintLayout>
