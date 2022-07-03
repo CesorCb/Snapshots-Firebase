@@ -131,7 +131,7 @@ class   AddFragment : Fragment() {
                     imgPhoto.setImageDrawable(null)
                 }
             }
-            .addOnCanceledListener { enableUI(true) }
+            .addOnCompleteListener { enableUI(true) }
             .addOnFailureListener { mainAux?.showMessage(R.string.post_message_post_snapshot_fail) }
     }
 
